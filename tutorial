@@ -1,0 +1,36 @@
+#detector de faces -- encontra faces treinadas 
+# dataset --contem todas as faces gravas 20 decada pessoa
+# haar --contem a biblioteca de econhecimento de faces padrão
+# recognizer -- CONTEM O ARQUIVO TRINADO COM FACES 
+# MODULOS -- CONTEM TODOS OS MODULOS 
+# LIXO -- CONTEM ARQUIVOS QUE NÃO ESTÃO SENDO USADOS MAIS 
+# APAGA DATA BASE -- APAGA BASE DE NOMES  CONTIDA NO ARQUIVO DATABASE
+# RECORTA  IMAGENS -- recorta imagens da camera e salva no diretorio dataset
+# treinando base -- captura as imagens do diretorio dataset e gera um arquivo treinado no diretorio recognizer
+# database -- contem os nomes das faces treinadas, nome é inserido no recorta imagens
+# detector de faces -- gera video da camera e indentifica faces treinadas 
+
+
+instalando memcached
+apt-get install memcached
+pip3 install pymemcache
+
+
+------------comando de comunica??o ---------------------
+## "a" apaga base
+## "b" treina base
+## "c" pergunta o nome 
+## "q" fecha o programa
+## "e" base apagada
+## "r"  responde que o programa foi finalizado 
+
+
+###################para retirar acentua??o ############################
+pip3 install Unidecode  ###
+
+#######instalarvoz offline###################
+sudo apt install libespeak1
+sudo pip3 install pyttsx3
+
+
+
